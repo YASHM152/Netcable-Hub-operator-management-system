@@ -1,44 +1,61 @@
-/* Main Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-  }
-  
-  header {
-    background-color: #fff;
-    padding: 15px 0;
-    text-align: center;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .header-logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .header-nav a {
-    text-decoration: none;
-    color: #333;
-    padding: 0 15px;
-  }
-  
-  .header-nav a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Hero Section */
-  .hero {
-    background-color: #ffffff }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+header {
+  background: #1e1e2f;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to right, #1e1e2f, #3e3e5f);
+  color: #fff;
+}
+.cta-button {
+  display: inline-block;
+  background: #ff6b6b;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+.feature {
+  background: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1e1e2f;
+  color: #fff;
+}
