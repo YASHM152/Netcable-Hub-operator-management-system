@@ -46,15 +46,33 @@
         .login-container button:hover {
             background-color: #57ca8d;
         }
+        .home-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #035c59;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .home-container button:hover {
+            background-color: #2421df;
+        }
     </style>
 </head>
 <body>
     <div class="login-container">
         <h2>Netcab Hub</h2>
         <form action="/login" method="post">
-            <input type="text" id="login-username" name="username">
-            <input type="password" id="login-password" name="password">            
+            <input type="text" id="login-username" name="username" required>
+            <input type="password" id="login-password" name="password" required>            
             <button type="submit">Login</button>
+        </form>
+        <br>
+        <div class="home-container">
+        <form >
+            <button type="submit" formaction="index.html">Home</button>
         </form>
     </div>
 </body>
