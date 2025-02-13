@@ -3,31 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup Page</title>
+    <title>Sign-up to Netcable Hub</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #c19d9d;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
         }
         .signup-container {
-            background-color: #fff;
-            padding: 20px;
+            background-color: #ffffff;
+            padding: 40px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             width: 300px;
         }
         .signup-container h2 {
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
         .signup-container input {
             width: 100%;
             padding: 10px;
             margin: 10px 0;
-            border: 1px solid #ccc;
+            border: 1px solid #dad9d9;
             border-radius: 5px;
         }
         .signup-container button {
@@ -36,14 +36,16 @@
             background-color: #28a745;
             border: none;
             border-radius: 5px;
-            color: #fff;
+            color: #fefefe;
             font-size: 16px;
+        }.signup-container button:hover {
+            background-color: #39bce8;
         }
     </style>
 </head>
 <body>
     <div class="signup-container">
-        <h2>Signup</h2>
+        <h2 align="center">NetCable Hub</h2>
         <form action="/submit_signup" method="post">
             <input type="text" name="username" placeholder="Username" required>
             <input type="email" name="email" placeholder="Email" required>
